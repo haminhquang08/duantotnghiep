@@ -1,0 +1,53 @@
+{
+  "name": "super-food",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@git",
+  "description": "Toshiro's Web-App Super Food",
+  "main": "index.js",
+  "engines": {
+    "node": ">=15.0.0",
+    "yarn": ">=1.22.17",
+    "npm": ">=8.11.0"
+  },
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "prettier": "prettier -write .",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "next test"
+  },
+  "keywords": [],
+  "author": "Toshiro Hirigara <Toshiroit@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@next/swc-linux-x64-gnu": "^11.1.2",
+    "@reduxjs/toolkit": "^1.8.4",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2",
+    "axios": "^0.27.2",
+    "axios-auth-refresh": "^3.3.3",
+    "boxicons": "^2.1.2",
+    "cookie": "^0.5.0",
+    "next": "^12.2.4-canary.12",
+    "next-redux-wrapper": "^7.0.5",
+    "next-swc-linux-x64-gnu": "^11.1.1-canary.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-html-parser": "^2.0.2",
+    "react-redux": "^8.0.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "2.4.1",
+    "sass": "^1.54.4",
+    "set-cookie-parser": "^2.5.1",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-next": "^12.2.2",
+    "prettier": "^2.7.1",
+    "url-loader": "^4.1.1"
+  }
+}
